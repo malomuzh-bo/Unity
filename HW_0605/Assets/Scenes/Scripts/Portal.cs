@@ -5,6 +5,8 @@ using UnityEngine;
 public class Portal : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject obj;
+    public Transform position;
     void Start()
     {
         
@@ -16,11 +18,8 @@ public class Portal : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "Player")
-        {
-            collision.gameObject.transform.Translate(2f, 0f, -8f);
-        }
+        collision.transform.position = position.transform.position;
     }
 }

@@ -58,7 +58,32 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Click To Color\Editor\ClickToColor.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopTouchHelper.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorRenderMaskEditor.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorRenderMaskEditorBase.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopConnection.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTWriter.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditor.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTResult.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditorBase.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\EncryptDecrypt.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopProtocol.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\ImageResult.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\About.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\ResolutionSettings.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopEncryptDecrypt.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTEditor.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\LUTSettings.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorVolumeEditorBase.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorEffectEditor.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\BackBufferHandler.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\CameraCollection.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\PhotoshopHandler.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\FileHandler.cs" />
+    <Compile Include="Assets\AmplifyColor\Plugins\Editor\ToolSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AmplifyColor\Plugins\Editor\AmplifyColorEditor.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -343,8 +368,14 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="AmplifyColor">
+      <HintPath>Assets\AmplifyColor\Plugins\AmplifyColor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AmplifyColorEditor">
+      <HintPath>Assets\AmplifyColor\Plugins\Editor\AmplifyColorEditor.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>

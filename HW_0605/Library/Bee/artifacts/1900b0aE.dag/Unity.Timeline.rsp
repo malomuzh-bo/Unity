@@ -123,6 +123,8 @@
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/AmplifyColor/Plugins/AmplifyColor.dll"
+-r:"Assets/AmplifyColor/Plugins/Editor/AmplifyColorEditor.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
